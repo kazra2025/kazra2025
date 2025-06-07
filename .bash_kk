@@ -1,0 +1,9 @@
+# Source this file from .bashrc 
+
+HISTSIZE=40
+HISTFILESIZE=40
+PROMPT_DIRTRIM=1
+
+PS1='$(ec=$?; echo "$ec")|\[\033[01;32m\]\w\[\033[00m\]|\$ '
+
+
