@@ -6,4 +6,14 @@ PROMPT_DIRTRIM=1
 
 PS1='$(ec=$?; echo "$ec")|\[\033[01;32m\]\w\[\033[00m\]|\$ '
 
+# ------ aliases
+
+alias gst='git status'
+alias ga='git add '
+alias gc='git commit -m '
+alias gpl='git pull'
+alias gpsh='git push'
+
+alias cls='clear'
+
 
