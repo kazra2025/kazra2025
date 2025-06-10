@@ -1,16 +1,19 @@
-# Source this file from .bashrc 
+# ---------- Source this file from .bashrc 
 
 HISTSIZE=40
 HISTFILESIZE=40
 PROMPT_DIRTRIM=1
 
+
+# PSV best prompt
 PS1='$(ec=$?; echo "$ec")|\[\033[01;32m\]\w\[\033[00m\]|\$ '
 
+# ---------- PATH
 
 export PATH="$HOME/nodez/nd24/bin:$PATH"
 
 
-# ------ aliases
+# ---------- aliases
 alias gst='git status'
 alias ga='git add '
 alias gc='git commit -m '
